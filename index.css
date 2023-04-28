@@ -1,0 +1,74 @@
+body {
+    all: unset;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Share Tech', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffda79;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #cc8e35;
+    border-radius: 10px;
+    padding: 3rem 4rem;
+    color: #fff;
+}
+
+.content input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: .4rem;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+}
+
+.content input::placeholder {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+}
+
+.content input:focus {
+    border-bottom: 1px solid #ccae62;
+}
+
+.content button {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Share Tech', sans-serif;
+    padding: .2rem;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ccae62;
+    color: #fff;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    transition: 0.5s;
+    background-color: #ffda79;
+}
